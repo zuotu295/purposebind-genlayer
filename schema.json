@@ -1,0 +1,89 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "assess": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "request_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "claim": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "request_id",
+          "string"
+        ],
+        [
+          "grant_digest",
+          "string"
+        ],
+        [
+          "fields_json",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "get_protocol": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_record": {
+      "params": [
+        [
+          "owner",
+          "string"
+        ],
+        [
+          "request_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "register": {
+      "params": [
+        [
+          "request_id",
+          "string"
+        ],
+        [
+          "recipient",
+          "string"
+        ],
+        [
+          "payload",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    }
+  }
+}
